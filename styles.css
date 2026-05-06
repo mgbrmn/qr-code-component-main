@@ -1,0 +1,62 @@
+@import url('https://googleapis.com');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, sans-serif;
+}
+
+.parent {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Sets container to full viewport height */
+  flex-direction: column;
+}
+
+.container {
+    background-color:hsl(0, 0%, 100%);
+    height: 420px;
+    width: 250px;
+    border-radius: 15px;
+    
+}
+
+img,
+figure {
+    border-radius: 10px;
+    width: 240px;
+    padding: 5px;
+}
+
+h1 {
+   font-size: large;
+   text-align: center;
+   padding: 10px;
+   color: hsl(218, 44%, 22%); /* Dark blue color from style-guide */
+}
+
+p {
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%); /* Grayish-blue color from style-guide */
+}
+
+footer {
+    margin: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: hsl(220, 15%, 55%); /* Grayish-blue color from style-guide */
+}
